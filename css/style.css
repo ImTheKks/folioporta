@@ -208,3 +208,78 @@ section img{
 .yojojo{
 
 }
+.desc{
+    background-color: #1b1b1b;
+    margin-top: 7%;
+    margin-left: 
+}
+.descripcion{
+    color: white;
+    font-family: inter;
+    font-size: 1.7rem;
+    margin-top: 0.5%;  
+}
+.description2{
+    font-family: inter;
+    margin-top: 0.5% ;
+    margin-left: 1%;
+    font-size: 1.7rem;
+    color: #E42524;
+}
+.cones{
+    display: flex;
+    align-items: top;
+}
+.desc2{
+    background-color: #1b1b1b;
+    margin-top: 2%;
+}.estudi2{
+    margin-top: 2%;
+    height: 70%;
+    background-color: #1b1b1b;
+    border: 10px solid #E42524;
+}
+.descripcion3{
+    color: #E42524;
+    font-size: 1.7rem;
+    margin-right: 1%;
+    margin-top: 0.5%;
+    font-family: inter;
+}
+.description4{
+    font-family: inter;
+    margin-top: 0.5% ;
+    margin-left: 1%;
+    font-size: 1.7rem;
+    color: white;
+}
+.cones2{
+    display: flex;
+    align-items: top;
+    justify-content: end;
+}
+.desc3{
+    background-color: #1b1b1b;
+    margin-top: 2%;
+    margin-left: 
+}
+.estudi3{
+    margin-top: 2%;
+    height: 70%;
+    background-color: #1b1b1b;
+    border: 10px solid #E42524;
+}
+.eduno{
+    display: none;
+}
+.edusi{
+    display: block;
+}
+.but2{
+    margin-top: 2%;
+}
+.but2:hover{
+   
+    background-color:#E42524;
+    color: white;
+ }

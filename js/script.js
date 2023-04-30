@@ -40,3 +40,20 @@ function toggleText() {
     }
 }
 
+
+let ocultobtn2 = document.getElementById('ocultobtn2');
+let edunop = document.getElementById('edunop');
+
+ocultobtn2.addEventListener('click', toggle);
+
+function toggle() {
+    edunop.classList.toggle('edusi');
+
+    if(edunop.classList.contains('edusi')) {
+        ocultobtn2.innerHTML = 'Ver Menos';
+    }
+    else{
+        ocultobtn2.innerHTML = 'Ver Más'
+    }
+}
+
