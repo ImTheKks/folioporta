@@ -138,14 +138,13 @@ section img{
 .titulo{
     display: flex;
     justify-content: center;
-    margin-left: 15%;
+
 }
 .text{
-    margin-left: 15%;
     text-align: justify;
     font-family: inter  ;
+    font-size: 1.1rem; 
     
-    font-size: 1.9rem;  
 }
 .des:first-letter{
     font-size: 3rem;
@@ -153,13 +152,59 @@ section img{
     font-weight: bold;
 }
 .foton{
+    display: flex;
+    justify-content: center;
 }
 .fyo{
-    margin: 13% 8%;
+    margin-top: 13%;
 }
 .ocul{
     display: none;
 }
 .show{
     display: block;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
+.but:hover{
+ background-color:#E42524;
+ color: white;
+}
+.linea {
+    border-top: 2px solid white ;
+    height: 1px;
+    max-width: 100%;
+    border-radius: 100%;
+}
+.doss{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 11vh;
+    background-color:  #1b1b1b;
+}
+.estu{
+    font-size: 3rem;
+    color: white;
+    font-family: Anton;
+    letter-spacing: 3px;
+}
+.estu::first-letter{
+    color: #E42524;
+    font-size: 3.5rem;
+}
+.foto{
+  
+}
+.estudi{
+    margin-top: 8%;
+    height: 70%;
+    background-color: #1b1b1b;
+    border: 10px solid #E42524;
+}
+.yojojo{
+
 }

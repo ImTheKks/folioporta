@@ -31,5 +31,12 @@ ocultobtn.addEventListener('click', toggleText);
 
 function toggleText() {
     oculto.classList.toggle('show');
+
+    if(oculto.classList.contains('show')) {
+        ocultobtn.innerHTML = 'Ver Menos';
+    }
+    else{
+        ocultobtn.innerHTML = 'Ver Más'
+    }
 }
 
