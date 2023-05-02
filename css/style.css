@@ -211,7 +211,6 @@ section img{
 .desc{
     background-color: #1b1b1b;
     margin-top: 7%;
-    margin-left: 
 }
 .descripcion{
     color: white;
@@ -261,7 +260,6 @@ section img{
 .desc3{
     background-color: #1b1b1b;
     margin-top: 2%;
-    margin-left: 
 }
 .estudi3{
     margin-top: 2%;
@@ -283,3 +281,210 @@ section img{
     background-color:#E42524;
     color: white;
  }
+ .linea2{
+    margin-top: 3%;
+    border-top: 2px solid white ;
+    height: 1px;
+    max-width: 100%;
+    border-radius: 100%;
+ }
+ .cajash{
+    background-color: #1b1b1b;
+    margin-top: 5%;
+ }
+ .htitu{
+    background-color: #E42524;
+    color: white;
+    font-family: Anton;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .conesh{
+    display: flex;
+    align-items: top;
+    margin-left: 3%;
+ }
+ .descripcioh{
+    font-family: inter;
+    margin-top: 3% ;
+    margin-left: 1%;
+    font-size: 1.4rem;
+    color: white;
+ }
+ .descriptionh{
+    color: #E42524;
+    font-size: 1.4rem;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-family: inter;
+ }
+ .habilin{
+    display: none;
+ }
+ .habilis{
+    display: block;
+ }
+ .traba{
+    margin-top: 5%;
+ }
+ .trabas{
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .trabass{
+    margin-top: 5%;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .trabas2{
+    margin-bottom: 6%;
+  
+ }
+
+ .mod{
+    margin-top: 9%;
+ }
+ .mod:hover{
+    background-color: rgb(79, 79, 79);
+    opacity: 50%;
+ }
+ .traba2{
+    margin-top: 5%;
+ }
+
+ .trabano{
+    display: none;
+ }
+ .trabasi{
+    display: block;
+ }
+ .servi{
+    margin-top: 5%;
+ }
+
+.conimg{
+    margin: 10% 5%;
+}
+.tcard{
+    text-align: center;
+    color: #E42524;
+    font-family: Anton;
+}
+.servi1{
+    color: white;
+    font-family: inter;
+    text-align: justify;
+}
+.ima1{
+    margin-top: 7%;
+}
+.carta{
+    margin-top: 15%;
+}
+.olasss{
+   margin-bottom: 10%;
+}.carta2{
+    margin-top: 9%;
+}
+.carta3{
+    margin-top: 6%;
+}
+.bm{
+    margin-bottom: 3%;
+}
+.footer{
+    background-color: #1b1b1b;
+}
+.cont{
+    margin-top: 10%;
+}
+.contacto{
+    color: white;
+    font-family: Anton;
+    font-size: 5rem;
+    text-align: center;
+    letter-spacing: 15px;
+}
+.vmodal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    z-index: 2001;
+    display: none;
+}
+.vmodal-show{
+    display: block;
+}
+.vmodal_container{
+    border-radius: 3%;
+    margin: auto;
+    width: 40%;
+    background-color: #1b1b1b;
+    
+}
+.vmodal_title{
+
+}
+.vmti{
+    font-family: Anton;
+    color: #E42524;
+    text-align: center;
+    margin-top: 3%;
+}
+.vmodal_des{
+    display: flex;
+    justify-content: center;
+}
+.vmtext{
+    color: white;
+    font-family:inter;
+    margin: 5%;
+    text-align: justify;
+}
+.mimg{
+    display: flex;
+    justify-content: center;
+}
+.vmodal_close{
+    display: flex;
+    justify-content: center;
+}
+.but5{
+    margin: 3%;
+}
+.but5:hover{
+    background-color: #E42524;
+    color: white;
+}
+.vmodal2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    z-index: 2001;
+    display: none;
+}
+.vmodal-show2{
+    display: block;
+}
+.vmodal-show3{
+    display: block;
+}
+.vmodal-show4{
+    display: block;
+}
+.vmodal-show5{
+    display: block;
+}

@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <!-- Inicio del Navbar/menu -->
     <header id="header">
       <a class="logo" href="">Aqui va mi logo xd</a>
-      <nav>
+      <nav class="navbar-expand-lg">
         <ul>
           <li><a href="#inicio">Inicio</a></li>
           <li class="nav-item dropdown">
@@ -20,16 +21,16 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#yo">Franklin</a></li>
-              <li><a class="dropdown-item" href="#estidos">Estudios</a></li>
-              <li><a class="dropdown-item" href="#">Habilidades</a></li>
+              <li><a class="dropdown-item" href="#estudios">Estudios</a></li>
+              <li><a class="dropdown-item" href="#habilidades">Habilidades</a></li>
             </ul>
           </li>
-          <li><a href="">Trabajos</a></li>
-          <li><a href="">Servicios</a></li>
-          <li><a href="">Contacto</a></li>
+          <li><a href="#trabajos">Trabajos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
-    
+    <!-- Imagenes del Parallaz -->
     </header>
     <section id="inicio">
       <img src="images/1.png" alt="" id="arbol">
@@ -40,48 +41,63 @@
       <img src="images/6.png" alt="" id="cielo">
       <img src="images/7.png" alt="" id="fondo">
     </section>
+    <!-- Primera sección (yo) -->
     <div class="container">
       <div>
         <article class="uno row" id="yo">
           <div class="col-xs-12 col-md-7 col-lg-7 yoyo">
+            <!-- Caja contenedora del titulo que en este caso es una imagen por fines de practicidad -->
             <div class="titulo">
               <img src="images/title.png" alt="" width="105%">
             </div>
+            <!-- Descripción -->
             <div class="text">
               <p class="des">
                 Soy un productor Multimedia, cada trabajo/diseño que hago, lo hago con amor porque esto es lo que me gusta y me llena. <br><br> Me caracterizo po ser una persona responsable, creativa, inovadora, le gusta experimentar y sobre todo es respuetuoso, amigable y honrrado. Simpre resalte por tener cierta afinidad para diseñar, en especial logos. Planeo seguir estudienado y especializandome para así seguir puliendo estas habilidades y afiniddades.
               </p>
+              <!-- SE le añade la etiqueta span para ocultar el texto y desde mediante java volverlo interactivo -->
               <span class="ocul" id="oculto">
                 <p>
                   Amante a los videojuegos, el anime, el hardware, entre otros. En general siento una atracción hacia la cultura geek. Soy lo que se l podría determinar "un friki"
                 </p>
+                <!-- aquí termina la equitea span -->
               </span>
+              <!-- Aquí esta el boton con que haremos visible o invisible el texto y esto se logra con java -->
               <div class="boton">
                 <button type="button" class="btn btn-outline-light but" id="ocultobtn">Ver más</button>
               </div>
             </div>
           </div>
-            <div class="col-xs-12 col-md-6 col-lg-5 foton">
+          <!-- Caja contenedora de la fotografia -->
+            <div class="col-xs-12 col-md-5 col-lg-5 foton">
               <img src="images/yolas.png" alt="" width="96%" class="fyo">
             </div>
           </div>
+          <!-- Esto es basicamente la linea separadora -->
           <div class="col-xs12- col-md-12 col-lg-12 linea"></div> 
         </article>
        
     </div>
+    <!-- Inicio de la segundo sección (Estudios) -->
+    <!-- Titulo de la sección, se deja fuera de caja con clase "container", para que este ocupe el 100% a lo ancho -->
     <div>
       <article class="dos row" id="estudios">
         <div class="col-xs-12 col-md-12 col-lg-12 doss">
           <h1 class="estu">Estudios</h1>
         </div>
       </article>
+      <!-- Inicio de el contnido en la sección "estudios" -->
       <div class="container">
+        <!-- Esta zona se divide en dos, la fotografian y la descripción, a lo largo de toda la sección lo unico que cambia es el orden de estas -->
         <aside class="row">
-          <div class="col-xs-12 col-md-3 col-lg-2 estudi">
+          <!-- Fotografia -->
+          <div class="col-xs-12 col-md-12 col-lg-2 estudi">
             <img src="images/fono1.png" alt="" width="100%" class="yojoj">
           </div>
+          <!-- caja bacia, que funciona como espaciadora -->
           <div class="col-lg-1 a"></div>
-          <div class="col-xs-12 col-md-9 col-lg-9 desc">
+          <!-- Descripción -->
+          <div class="col-xs-12 col-md-12 col-lg-9 desc">
             <div class="cones">
               <p class="descripcion">Año:</p>
               <p class="description2">2021</p>
@@ -100,8 +116,10 @@
             </div>
           </div>
         </aside>
+        <!-- Segunda parte de la sección estudios -->
         <aside class="row">
-          <div class="col-xs-12 col-md-9 col-lg-9 desc2">
+          <!-- Descriopción -->
+          <div class="col-xs-12 col-md-12 col-lg-9 desc2">
             <div class="cones2">
               <p class="descripcion3">2021</p>
               <p class="description4">:año</p>
@@ -119,18 +137,25 @@
               <p class="description4">:Logros/Condecoraciones</p>
             </div>
           </div>
+          <!-- caja espaciadora -->
           <div class="col-lg-1 a"></div>
-          <div class="col-xs-12 col-md-3 col-lg-2 estudi2">
+          <!-- Fotografía -->
+          <div class="col-xs-12 col-md-12 col-lg-2 estudi2">
             <img src="images/fono1.png" alt="" width="100%" class="yojoj">
           </div>
         </aside>
+        <!-- inicio de la etiqueta span para coltar información y hacerla interactiva-->
         <span class="eduno" id="edunop">
+          <!-- inicio de la tercera parte de la sección estudios-->
           <aside class="row">
-            <div class="col-xs-12 col-md-3 col-lg-2 estudi3">
+            <!-- fotografía -->
+            <div class="col-xs-12 col-md-12 col-lg-2 estudi3">
               <img src="images/fono1.png" alt="" width="100%" class="yojoj">
             </div>
+            <!-- caja espacidora -->
             <div class="col-lg-1 a"></div>
-            <div class="col-xs-12 col-md-9 col-lg-9 desc3">
+            <!-- Descrición -->
+            <div class="col-xs-12 col-md-12 col-lg-9 desc3">
               <div class="cones">
                 <p class="descripcion">Año:</p>
                 <p class="description2">2021</p>
@@ -149,8 +174,10 @@
               </div>
             </div>
           </aside>
+          <!-- Inicio de la cuarta parte de la sección estidos-->
           <aside class="row">
-            <div class="col-xs-12 col-md-9 col-lg-9 desc2">
+            <!-- Descripcion -->
+            <div class="col-xs-12 col-md-12 col-lg-9 desc2">
               <div class="cones2">
                 <p class="descripcion3">2024</p>
                 <p class="description4">:año</p>
@@ -168,17 +195,400 @@
                 <p class="description4">:Logros/Condecoraciones</p>
               </div>
             </div>
+            <!-- caja espaciadora -->
             <div class="col-lg-1 a"></div>
-            <div class="col-xs-12 col-md-3 col-lg-2 estudi2">
+            <!-- fotografía -->
+            <div class="col-xs-12 col-md-12 col-lg-2 estudi2">
               <img src="images/fono1.png" alt="" width="100%" class="yojoj">
             </div>
           </aside>
+          <!-- aqui termina la eqiquta span -->
         </span>
+        <!-- Boton para ocultar y mostrar contenido -->
         <div class="boton">
           <button type="button" class="btn btn-outline-light but2" id="ocultobtn2">Ver más</button>
         </div>
+        <!-- linea separadora -->
+        <div class="col-xs12- col-md-12 col-lg-12 linea2"></div>
+      </div>
+      <!-- inicio de la sección "habilidades" -->
+      <article class="dos row" id="Habilidades">
+        <!-- Titulo que se encutra fuera de caja con clase container -->
+        <div class="col-xs-12 col-md-12 col-lg-12 doss">
+          <h1 class="estu">Habilidades</h1>
+        </div>
+      </article>
+      <div class="container" id="habilidades">
+        <aside class="row habili">
+          <div class="col-xs-12 col-md-12 col-lg-5 cajash">
+            <!-- Titulo de la caja -->
+            <div class="htitu">
+              <h1>Blandas</h1>
+            </div>
+            <!-- Lista de ahbilidades -->
+            <div class="conesh">
+              <p class="descripcioh">Creactividad e Innovación:</p>
+              <p class="descriptionh">80%</p>
+            </div>
+            <div class="conesh">
+              <p class="descripcioh">Sociable:</p>
+              <p class="descriptionh">60%</p>
+            </div>
+            <div class="conesh">
+              <p class="descripcioh">Asertivo:</p>
+              <p class="descriptionh">70%</p>
+            </div>
+            <div class="conesh">
+              <p class="descripcioh">Paciente o Adaptable:</p>
+              <p class="descriptionh">70%</p>
+            </div>
+            <div class="conesh">
+              <p class="descripcioh">Comunicación:</p>
+              <p class="descriptionh">80%</p>
+            </div>
+            <div class="conesh">
+              <p class="descripcioh">Servicio al cliente:</p>
+              <p class="descriptionh">90%</p>
+            </div>
+            <!-- etiqueta span para ocultar parte del contenido y hacerlo visible con un boton -->
+            <span class="habilin" id="habilino">
+              <div class="conesh">
+                <p class="descripcioh">Inteligencia emocional:</p>
+                <p class="descriptionh">80%</p>
+              </div>
+              <div class="conesh">
+                <p class="descripcioh">Productividad:</p>
+                <p class="descriptionh">90%</p>
+              </div>
+              <div class="conesh">
+                <p class="descripcioh">Fluidez verbal:</p>
+                <p class="descriptionh">50%</p>
+              </div>
+              <div class="conesh">
+                <p class="descripcioh">Puntualidad:</p>
+                <p class="descriptionh">70%</p>
+              </div>
+              <div class="conesh">
+                <p class="descripcioh">Responsable:</p>
+                <p class="descriptionh">100%</p>
+              </div>
+              <!-- aquí termina la etiqueta span -->
+            </span>
+            <!-- boton para ocultar contenido -->
+            <div class="boton bm">
+              <button type="button" class="btn btn-outline-light but2" id="ocultobtn3">Ver más</button>
+            </div>
+          </div>
+          <!-- Caja separadora -->
+          <div class="col-lg-2"></div>
+          <!-- Aqui inicia la segunda caja de habilidades "tecnicas" -->
+          <div class="col-xs-12 col-md-12 col-lg-5 cajash">
+            <!-- Titulo de la caja -->
+            <div class="htitu">
+              <h1>Tecnicas</h1>
+            </div>
+            <!-- Lista de habilidades -->
+            <div class="conesh">
+              <p class="descripcioh">Adobe Illustrator:</p>
+              <p class="descriptionh">80%</p>
+            </div>
+            <div class="conesh">
+              <p class="descripcioh">Adobe Photoshop:</p>
+              <p class="descriptionh">50%</p>
+            </div>
+            <div class="conesh">
+              <p class="descripcioh">Adobe Lightroom:</p>
+              <p class="descriptionh">50%</p>
+            </div>
+            <div class="conesh">
+              <p class="descripcioh">Adobe Premiere:</p>
+              <p class="descriptionh">60%</p>
+            </div>
+            <div class="conesh">
+              <p class="descripcioh">Adobe After Effects:</p>
+              <p class="descriptionh">30%</p>
+            </div>
+            <div class="conesh">
+              <p class="descripcioh">Adobe Animate:</p>
+              <p class="descriptionh">70%</p>
+            </div>
+            <!-- etiqueta span para ocultar parte del contenido y hacerlo visible con un boton -->
+            <span class="habilin" id="habilitno">
+              <div class="conesh">
+                <p class="descripcioh">Html:</p>
+                <p class="descriptionh">70%</p>
+              </div>
+              <div class="conesh">
+                <p class="descripcioh">Css:</p>
+                <p class="descriptionh">70%</p>
+              </div>
+              <div class="conesh">
+                <p class="descripcioh">Visual Code Studio:</p>
+                <p class="descriptionh">80%</p>
+              </div>
+              <div class="conesh">
+                <p class="descripcioh">Adobe Audition:</p>
+                <p class="descriptionh">40%</p>
+              </div>
+              <div class="conesh">
+                <p class="descripcioh">Adobe XD:</p>
+                <p class="descriptionh">60%</p>
+              </div>
+              <!-- aquí termina la etiqueta span -->
+            </span>
+            <!-- boton para ocultar contenido -->
+            <div class="boton bm">
+              <button type="button" class="btn btn-outline-light but2" id="ocultobtn4">Ver más</button>
+            </div>
+          </div>
+          
+        </aside>
+        <div class="col-xs12- col-md-12 col-lg-12 linea2"></div>
+      </div>
+      <!-- Linea separadora -->
+      
+      <!-- Aqui termina la sección de habilidades -->
+      <!-- aquí inicia la sección de trabajos -->
+      <article class="dos row" id="trabajos">
+        <!-- Titulo que se encutra fuera de caja con clase container -->
+        <div class="col-xs-12 col-md-12 col-lg-12 doss">
+          <h1 class="estu">Trabajos</h1>
+        </div>
+      </article>
+      <!-- Inicio caja de proyectos -->
+      <div class="container">
+        <div class="row traba">
+          <!-- Primer trabajo -->
+          <div class="col-xs-12 col-md-12 col-lg-5 trabas">
+            <div class="trabas2">
+              <button class="mod" id="botonmodal">
+                <img src="images/cafefoto.jpg" alt="" width="100%">
+              </button>
+              <!-- ventana modal -->
+              <div class="vmodal" id="vmodal">
+                <div class="vmodal_container">
+                  <div class="vmodal_title">
+                    <h1 class="vmti">Fotografía - Cafe</h1>
+                  </div>
+                  <div class="vmodal-des">
+                    <p class="vmtext">
+                      Fotografía tomada en clase, en esta se juega con los colores del producto y el concepto del grano de cafe, dando a entender que este es cafe puro.
+                    </p>
+                    <div class="mimg">
+                      <img src="images/cafefoto.jpg" class="modal_img" width="40%" alt="">
+                    </div>
+                    <button type="button" class="btn btn-outline-light but5" id="ocultobtn6">cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- caja separadora -->
+          <div class="col-lg-2"></div>
+          <!-- segundo trabajo -->
+          <div class="col-xs-12 col-md-12 col-lg-5 trabas">
+            <div class="trabas2">
+              <button class="mod" id="botonmodal2">
+                <img src="images/mulpro.png" alt="" width="100%">
+              </button>
+              <!-- ventana modal -->
+              <div class="vmodal2" id="vmodal2">
+                <div class="vmodal_container">
+                  <div class="vmodal_title">
+                    <h1 class="vmti">Poster - MultProd</h1>
+                  </div>
+                  <div class="vmodal-des">
+                    <p class="vmtext">
+                      Afiche realizado en clase para una convención de producción multimedia.
+                      <br>
+                      Con este poster se buscaba insertivar a la gente a asistir al evento.
+                    </p>
+                    <div class="mimg">
+                      <img src="images/mulpro.png" class="modal_img" width="40%" alt="">
+                    </div>
+                    <button type="button" class="btn btn-outline-light but5" id="ocultobtn7">cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+        <!-- aqui inicia el apn que oculta las cosas -->
+        <span class="trabano" id="trabanop">
+          <div class="row traba2">
+            <!-- Tercer trabajo -->
+            <div class="col-xs-12 col-md-5 col-lg-2 trabas">
+              <div class="trabas2">
+                <button class="mod" id="botonmodal3">
+                  <img src="images/lamagia.png" alt="" width="100%" height="200%">
+                </button>
+                <!-- ventana modal -->
+                <div class="vmodal2" id="vmodal3">
+                  <div class="vmodal_container">
+                    <div class="vmodal_title">
+                      <h1 class="vmti">Poster - LaMagia</h1>
+                    </div>
+                    <div class="vmodal-des">
+                      <p class="vmtext">
+                        Poster realizado en clase para una marca ficticia de jabon en polvo para ropa negra.
+                        <br>
+                        Con este poster se buscaba llegar a un publico más joven a la ves que se manejaba un concepto distinto al habitual.
+                      </p>
+                      <div class="mimg">
+                        <img src="images/lamagia.png" class="modal_img" width="40%" alt="">
+                      </div>
+                      <button type="button" class="btn btn-outline-light but5" id="ocultobtn8">cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- caja separadora -->
+            <div class="col-md-2 col-lg-3"></div>
+            <!-- quinto trabajo -->
+            <div class="col-xs-12 col-md-5 col-lg-2 trabas">
+              <div class="trabas2">
+                <button class="mod" id="botonmodal4">
+                  <img src="images/choco.png" alt="" width="100%" height="200%">
+                </button>
+                <!-- ventana modal -->
+                <div class="vmodal2" id="vmodal4">
+                  <div class="vmodal_container">
+                    <div class="vmodal_title">
+                      <h1 class="vmti">Brief - Chocolate Andino </h1>
+                    </div>
+                    <div class="vmodal-des">
+                      <p class="vmtext">
+                        Brief realizado para la clase de fotografía.
+                        <br>
+                        Con este brief se buscaba especificar el publico objetivo, concepto, estrategia, entre otros de en este caso la marca/fabrica de chocolate "Chocolate Andino".
+                      </p>
+                      <div class="mimg">
+                        <img src="images/choco.png" class="modal_img" width="40%" alt="">
+                      </div>
+                      <button type="button" class="btn btn-outline-light but5" id="ocultobtn9">cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- caja separadora -->
+            <div class="col-lg-3"></div>
+            <!-- sexto trabajo -->
+            <div class="col-xs-12 col-md-12 col-lg-2 trabass">
+              <div class="trabas3">
+                <button class="mod">
+                  <img src="images/LogoWt_1.png" alt="" width="100%" height="200%">
+                </button>
+              </div>
+            </div>
+          </div>
+        </span>
+        <div class="boton">
+          <button type="button" class="btn btn-outline-light but2" id="ocultobtn5">Ver más</button>
+        </div>
       </div>
       
+         
+    </div>
+      <article class="dos row" id="servicios">
+        <!-- Titulo que se encutra fuera de caja con clase container -->
+        <div class="col-xs-12 col-md-12 col-lg-12 doss">
+          <h1 class="estu">Servicios</h1>
+        </div>
+      </article>
+      <!-- Inicio de la sección de servicios -->
+      <div class="container olasss">
+        <div class="row">
+          <!-- Primer servicio -->
+          <div class="col-xs-12 col-md-5 col-lg-3  servi">
+            <div class="card" style="width: 18rem; background-color: #1b1b1b;">
+              <div class="conimg">
+                <img src="images/web.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title tcard">Diseño Web</h3>
+                <p class="card-text servi1">Entre los servicios que ofresco, se encuentra el desarrollo web mediante el uso de HTML, CSS y de momento Java.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Caja separadora -->
+          <div class="col-md-2 col-lg-1"></div>
+          <!-- Segundo servicio -->
+          <div class="col-xs-12 col-md-5 col-lg-3  servi">
+            <div class="card" style="width: 18rem; background-color: #1b1b1b;">
+              <div class="conimg">
+                <img src="images/animacion.png" class="card-img-top ima1" alt="...">
+              </div>
+              <div class="card-body carta">
+                <h3 class="card-title tcard">Animación</h3>
+                <p class="card-text servi1">Entre los servicios que ofresco, se encuentra la Animación usando erramientas como Adobe Animate.</p>
+              </div>
+            </div>
+          </div>
+          <!-- caja separadora -->
+          <div class="col-lg-1"></div>
+          <!-- tercer servicio -->
+          <div class="col-xs-12 col-md-5 col-lg-3  servi">
+            <div class="card" style="width: 18rem; background-color: #1b1b1b;">
+              <div class="conimg">
+                <img src="images/foto.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body carta">
+                <h3 class="card-title tcard">Fotografía</h3>
+                <p class="card-text servi1">Entre los servicios que ofresco, la fotografía. Esta en sus diferentes vairientes (producto, retrato, paisaje, etc...).</p>
+              </div>
+            </div>
+          </div>
+          <!-- caja separadora -->
+          <div class="col-md-2 col-lg-1"></div>
+          <!-- Cuarto servicio -->
+          <div class="col-xs-12 col-md-5 col-lg-3  servi">
+            <div class="card" style="width: 18rem; background-color: #1b1b1b;">
+              <div class="conimg">
+                <img src="images/diseño.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body carta2">
+                <h3 class="card-title tcard">Diseño</h3>
+                <p class="card-text servi1">Entre los servicios que ofresco, el diseño es uno de ellos y en el que soy más fuerte. Cuento con una gran facilidad a la hora de diseñar</p>
+              </div>
+            </div>
+          </div>
+          <!-- CAja separadora -->
+          <div class="col-lg-1"></div>
+          <!-- Quinto servicio -->
+          <div class="col-xs-12 col-md-5 col-lg-3  servi">
+            <div class="card" style="width: 18rem; background-color: #1b1b1b;">
+              <div class="conimg">
+                <img src="images/ilustracion.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body carta3">
+                <h3 class="card-title tcard">Fotografía</h3>
+                <p class="card-text servi1">Entre los servicios que ofresco, La ilustración es una de ellas, manejo una gran versatilidad a la hora de ilustrar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- footer y zona de contacto -->
+      <footer class="footer" id="contacto">
+        <div class="container">
+          <!-- title -->
+          <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-12 cont">
+              <h1 class="contacto">Contacto</h1>
+            </div>
+          </div>
+          <!-- zona imput -->
+          <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-3 formu">
+              
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
     </div>
     
