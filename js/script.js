@@ -5,24 +5,18 @@ let agua = document.getElementById('agua')
 let m1 = document.getElementById('m1')
 let m2 = document.getElementById('m2')
 let m3 = document.getElementById('m3')
-let cielo = document.getElementById('cielo')
-let fondo = document.getElementById('fondo')
 
 window.addEventListener('scroll',function(){
     let value = this.window.scrollY;
 
     arbol.style.marginTop = value * 0 + 'px'
-    agua.style.top = value * 0.099 + 'px'
+    agua.style.top = value * -0.5 + 'px'
     m1.style.top = value * 0.19 + 'px'
-    m2.style.top = value * 0.4 + 'px'
-    m3.style.top = value * 0.55 + 'px'
-    cielo.style.top = value * 1 + 'px'
+    m2.style.top = value * 0 + 'px'
+    m3.style.top = value * 0.6 + 'px'
 })
 
-window.addEventListener("scroll",function(){
-    var header = document.querySelector("header");
-    header.classList.toggle("abajo",window.scrollY>490);
-})
+
 
 let ocultobtn = document.getElementById('ocultobtn');
 let oculto = document.getElementById('oculto');
@@ -39,6 +33,14 @@ function toggleText() {
         ocultobtn.innerHTML = 'Ver Más'
     }
 }
+var nav = document.querySelector('nav');
+    window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 490) {
+            nav.classList.add('navbar-scrolled', 'shadow', 'texto-blanco');
+        }else{
+            nav.classList.remove('navbar-scrolled', 'shadow', 'texto-blanco');
+        }
+        });
 
 
 let ocultobtn2 = document.getElementById('ocultobtn2');

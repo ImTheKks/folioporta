@@ -4,7 +4,7 @@
     margin: 0;
 }
 body{
-    background-color: rgb(6, 6, 6);
+    background-color: black;
     min-height: 100vh;
     overflow-x: hidden; 
 }
@@ -25,60 +25,54 @@ body{
     font-family: inter;
     src: url(../fonts/Inter-Light.ttf);
 }
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
+
+.nav-link{
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
     width: 100%;
-    z-index: 2000;
-    display: flex;
-    justify-content: space-around;
-    transition: 0.5s;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;ç
 }
-header .logo{
-    position: relative;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    
+
+.nav-link:hover::after{
+    opacity: 1;
 }
-nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0.8%;
-    
-}
-header ul{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
-header ul li{
-    list-style: none;
-    margin-left: 8%;
-}
-header ul a{
-    position: relative;
-    margin: 10%;
-    text-decoration: none;
-    letter-spacing: 1px;
-    transition: 0.5s;
-    color: white;
-}
-header.abajo{
-    background-color: #1b1b1b;
-}
+
 .navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
+    transition: 0.4s;
 }
+
+
+.navbar-scrolled{
+    background-color:#1b1b1b;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+.inini{
+    color: white;
+    font-size: 2rem;
+    font-family: Anton;
+    letter-spacing: 2px;
+}
+.inini::first-letter{
+    color:#E42524 ;
+    font-size: 3rem;
+}
+
+    
+
+
+
+
 section{
+    background-color: black;
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -365,6 +359,8 @@ section img{
  }
  .servi{
     margin-top: 5%;
+    display: flex;
+    justify-content: center;
  }
 
 .conimg{
@@ -387,7 +383,9 @@ section img{
     margin-top: 15%;
 }
 .olasss{
-   margin-bottom: 10%;
+   margin-bottom: 5%;
+   display: flex;
+   
 }.carta2{
     margin-top: 9%;
 }
@@ -397,19 +395,9 @@ section img{
 .bm{
     margin-bottom: 3%;
 }
-.footer{
-    background-color: #1b1b1b;
-}
-.cont{
-    margin-top: 10%;
-}
-.contacto{
-    color: white;
-    font-family: Anton;
-    font-size: 5rem;
-    text-align: center;
-    letter-spacing: 15px;
-}
+
+
+
 .vmodal{
     position: fixed;
     top: 0;
@@ -420,6 +408,7 @@ section img{
     display: flex;
     z-index: 2001;
     display: none;
+    transition: 3s;
 }
 .vmodal-show{
     display: block;
@@ -475,16 +464,67 @@ section img{
     display: flex;
     z-index: 2001;
     display: none;
+    transition: 3s;
 }
 .vmodal-show2{
     display: block;
+    transition: 3s;
 }
 .vmodal-show3{
     display: block;
+    transition: 3s;
 }
 .vmodal-show4{
     display: block;
 }
 .vmodal-show5{
     display: block;
+}
+.cont{
+    margin-top: 6%;
+}
+.footer{
+    background-color: #1b1b1b;
+}
+.contacto{
+    color: white;
+    font-family: Anton;
+    font-size: 7rem;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.formulario{
+    margin-top: 5%;
+}
+.sepafo{
+    margin-top: 5%;
+}
+.cred{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.redes{
+    margin-bottom: 3%;
+}
+.red1{
+    justify-content: center;
+    margin-right: 15%;
+    
+    
+}
+.check{
+    margin-top: 2%;
+}
+.envi{
+    margin-top: 1%;
+}
+.envi:hover{
+    background-color:#E42524;
+    color: white;
+}
+.inc{
+    color: white;
+    font-family: inter;
 }

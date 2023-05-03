@@ -11,35 +11,50 @@
   <body>
     <!-- Inicio del Navbar/menu -->
     <header id="header">
-      <a class="logo" href="">Aqui va mi logo xd</a>
-      <nav class="navbar-expand-lg">
-        <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true" style="color: white;">
-              Quien soy
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#yo">Franklin</a></li>
-              <li><a class="dropdown-item" href="#estudios">Estudios</a></li>
-              <li><a class="dropdown-item" href="#habilidades">Habilidades</a></li>
+      <nav class="navbar navbar-expand-lg navbar-light navbar-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><h1 class="inini">Franklin Olaya</h1></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio" style="color: white; font-family: inter;">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#yo" style="color: white; font-family: inter;">Quien soy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#estudios" style="color: white; font-family: inter;">Estudios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#habilidades" style="color: white; font-family: inter;">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#trabajos" style="color: white; font-family: inter;">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#servicios" style="color: white; font-family: inter;">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contacto.html" target="_blank" style="color: white; font-family: inter;">Contacto</a>
+              </li>
             </ul>
-          </li>
-          <li><a href="#trabajos">Trabajos</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
+          </div>
+        </div>
       </nav>
-    <!-- Imagenes del Parallaz -->
     </header>
+    <!-- Imagenes del Parallaz -->
+    
     <section id="inicio">
-      <img src="images/1.png" alt="" id="arbol">
-      <img src="images/2.png" alt="" id="agua">
-      <img src="images/3.png" alt="" id="m1">
-      <img src="images/4.png" alt="" id="m2">
-      <img src="images/5.png" alt="" id="m3">
-      <img src="images/6.png" alt="" id="cielo">
-      <img src="images/7.png" alt="" id="fondo">
+      <img src="images/pastob.png" alt="" id="arbol">
+      <img src="images/japaro.png" alt="" id="agua">
+      <img src="images/pastog.png" alt="" id="m1">
+      <img src="images/samu.png" alt="" id="m2">
+      <img src="images/fondo.png" alt="" id="m3">
     </section>
     <!-- Primera sección (yo) -->
     <div class="container">
@@ -488,6 +503,7 @@
         <div class="boton">
           <button type="button" class="btn btn-outline-light but2" id="ocultobtn5">Ver más</button>
         </div>
+        <div class="col-xs12- col-md-12 col-lg-12 linea2"></div>
       </div>
       
          
@@ -569,6 +585,8 @@
               </div>
             </div>
           </div>
+          <!-- separador -->
+          <div class="col-xs12- col-md-12 col-lg-12 linea2"></div>
         </div>
 
       </div>
@@ -582,11 +600,58 @@
             </div>
           </div>
           <!-- zona imput -->
-          <div class="row">
-            <div class="col-xs-12 col-md-12 col-lg-3 formu">
-              
+          <div class="formulario">
+              <form class="row">
+                <div class="co-xs-12 co-md-12 col-lg-3 nomb">
+                  <label for="nombre" class="form-label text-light">Nombre y Apellido</label>
+                  <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-label text-light">Pon tu nombre completo :DD</div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-xs-12 col-md-12 col-lg-4 correo">
+                    <label for="nombre" class="form-label text-light">Correo Electronico</label>
+                    <input type="email" class="form-control" id="correo" name="correo" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-label text-light">Tu dirección de correro debe contner un "@" :DD</div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-xs-12 col-md-12 col-lg-3 celular">
+                    <label for="celular" class="form-label text-light">Número de celular</label>
+                    <input type="text" class="form-control" id="cell" name="cell" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-label text-light"> :DD</div>
+                </div>
+                <div class="check">
+                  <input type="checkbox" class="form-check-imput" id="exampleCheck1">
+                  <label for="exampleCheck1" class="form-check-label text-light">Autorizo ser contactado.</label>
+                </div>
+                
+                  
+                  <input type="submit" class="btn btn-outline-light envi">
+                
+              </form>
+            </div>
+            <!-- sepador -->
+            <div class="row sepafo">
+              <div class="col-lg-2"></div>
+              <div class="col-xs12- col-md-12 col-lg-8 linea2"></div>
+              <div class="col-lg-2"></div>
             </div>
           </div>
+          <div class="redes">
+            <div class="row">
+              <div class="col-lg-4"></div>
+              <div class="col-lg-4 cred">
+                <div class="conred">
+                  <a href="https://www.instagram.com/im_the_kks/" target="_blank"><img src="images/insta.png" class="red1" width="20%" alt=""></a>
+                  <a href="https://github.com/ImTheKks" target="_blank"><img src="images/git.png" class="red1" width="20%" alt=""></a>
+                  <a href="" target="_blank"><img src="images/beh.png" class=red2 width="23%" alt=""></a>
+                </div>
+              </div>
+              <div class="col-lg-4"></div>
+            </div>
+          </div>
+        </div>
+        <div class="inc">
+          <p>©2023 Franklin Olaya designer, Allrights reserved.</p>
         </div>
       </footer>
     </div>
