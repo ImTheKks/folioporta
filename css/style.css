@@ -151,11 +151,14 @@ section img{
 }
 .fyo{
     margin-top: 13%;
+    
 }
 .ocul{
+    transition: 5s;
     display: none;
 }
 .show{
+    transition: 5s;
     display: block;
 }
 .boton{

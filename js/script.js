@@ -10,10 +10,10 @@ window.addEventListener('scroll',function(){
     let value = this.window.scrollY;
 
     arbol.style.marginTop = value * 0 + 'px'
-    agua.style.top = value * -0.5 + 'px'
+    agua.style.left = value * 0.5 + 'px'
     m1.style.top = value * 0.19 + 'px'
     m2.style.top = value * 0 + 'px'
-    m3.style.top = value * 0.6 + 'px'
+    m3.style.top = value * 1 + 'px'
 })
 
 
